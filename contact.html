@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تواصل واطلب — Lingua Studio</title>
+  <meta name="description" content="اطلب ترجمة أو تدقيقًا أو درسًا عبر واتساب من Lingua Studio.">
+  <meta name="theme-color" content="#1f5a7a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/images/logo.webp" type="image/webp">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo" aria-label="Lingua Studio — الرئيسية">
+      <span class="logo-mark" aria-hidden="true"><b>A</b><i>ع</i></span>
+      <span class="logo-text" dir="ltr">Lingua <em>Studio</em></span>
+    </a>
+    <button class="menu-btn" aria-label="القائمة" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="index.html">الرئيسية</a>
+      <a href="services.html">الخدمات والأسعار</a>
+      <a href="contact.html" aria-current="page">تواصل واطلب</a>
+      <a class="nav-wa" href="https://wa.me/966558064627" target="_blank" rel="noopener">واتساب</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <h1 class="reveal">تواصل واطلب</h1>
+      <p class="reveal">املأ النموذج، فتصلك رسالة واتساب جاهزة بتفاصيل طلبك. أو راسلنا مباشرة.</p>
+    </section>
+
+    <section class="section contact-layout">
+      <form class="order-form reveal" id="order-form" data-tilt>
+        <h2>طلب سريع عبر واتساب</h2>
+        <label>اسمك<input type="text" name="name" required placeholder="مثال: نورة"></label>
+        <label>الخدمة
+          <select name="service">
+            <option>الترجمة التحريرية</option>
+            <option>التدقيق والتحرير اللغوي</option>
+            <option>دروس اللغة الإنجليزية</option>
+          </select>
+        </label>
+        <label>اتجاه الترجمة
+          <select name="dir">
+            <option>من العربية إلى الإنجليزية</option>
+            <option>من الإنجليزية إلى العربية</option>
+            <option>لا ينطبق</option>
+          </select>
+        </label>
+        <label>عدد الكلمات أو الصفحات (تقريبًا)<input type="text" name="size" placeholder="مثال: 3 صفحات"></label>
+        <label>موعد التسليم<input type="text" name="when" placeholder="مثال: خلال يومين"></label>
+        <button class="btn btn-wa" type="submit">أرسل الطلب عبر واتساب</button>
+      </form>
+
+      <div class="contact-side">
+        <div class="contact-card wa reveal" data-tilt>
+          <div class="c-ico">💬</div>
+          <h2>واتساب</h2>
+          <p>أسرع طريقة للطلب والاستفسار.</p>
+          <a class="btn btn-light" href="https://wa.me/966558064627" target="_blank" rel="noopener"><span dir="ltr">+966 55 806 4627</span></a>
+        </div>
+        <div class="contact-card reveal" data-tilt>
+          <div class="c-ico">📍</div>
+          <h2>العنوان</h2>
+          <p>الرياض، المملكة العربية السعودية</p>
+          <p class="muted">نخدم العملاء عن بُعد في كل مكان.</p>
+        </div>
+        <div class="contact-card reveal" data-tilt>
+          <div class="c-ico">✉️</div>
+          <h2>البريد</h2>
+          <p><a href="mailto:sumaya.morshed@gmail.com" dir="ltr">sumaya.morshed@gmail.com</a></p>
+          <p class="muted">الرد من الأحد إلى الخميس، 4 عصرًا حتى 10 مساءً.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <h2 class="section-title reveal">أسئلة تتكرر</h2>
+      <details class="reveal"><summary>هل تستخدمون الترجمة الآلية؟</summary><p>لا نسلّم ترجمة آلية. كل نص يُترجم ويُراجع بيد بشرية.</p></details>
+      <details class="reveal"><summary>كم تستغرق ترجمة صفحة واحدة؟</summary><p>النصوص القصيرة حتى 3 صفحات تُسلَّم غالبًا خلال 24 ساعة، والأطول حسب الاتفاق.</p></details>
+      <details class="reveal"><summary>هل ملفاتي في أمان؟</summary><p>نعم. لا نشارك ملفاتك مع أي طرف، ونحذفها بعد التسليم إن طلبت ذلك.</p></details>
+      <details class="reveal"><summary>كيف أدفع؟</summary><p>بالتحويل البنكي بعد الاتفاق على السعر. والطلبات الكبيرة تُدفع على دفعتين.</p></details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-logo" dir="ltr">Lingua <em>Studio</em></p>
+        <p>ترجمة وتدقيق ودروس إنجليزية، تديرها <a href="https://sumaya-hammadi.pages.dev" target="_blank" rel="noopener">سمية محمد حمادي</a>.</p>
+      </div>
+      <div>
+        <p class="footer-h">روابط</p>
+        <a href="index.html">الرئيسية</a>
+        <a href="services.html">الخدمات والأسعار</a>
+        <a href="contact.html">تواصل واطلب</a>
+      </div>
+      <div>
+        <p class="footer-h">تواصل</p>
+        <a href="https://wa.me/966558064627" target="_blank" rel="noopener">واتساب: <span dir="ltr">+966 55 806 4627</span></a>
+        <a href="mailto:sumaya.morshed@gmail.com">البريد: <span dir="ltr">sumaya.morshed@gmail.com</span></a>
+        <span>الرياض، المملكة العربية السعودية</span>
+      </div>
+    </div>
+    <p class="copy">© <span id="year">2026</span> Lingua Studio — كلماتك بلغة ثانية، وبالروح نفسها.</p>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/966558064627" target="_blank" rel="noopener" aria-label="راسلنا على واتساب">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3a.5.5 0 0 0 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.6-.3Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
